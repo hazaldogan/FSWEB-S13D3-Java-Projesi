@@ -38,18 +38,18 @@ public class Person {
     }
 
     public String getFirstName(){
-        return this.firstName;
+        return firstName;
     }
 
     public String getLastName(){
-        return this.lastName;
+        return lastName;
     }
 
     public int getAge(){
-        return this.age;
+        return age;
     }
 
-    public boolean isTeen(int age){
+    public boolean isTeen(){
         return age>=13 && age<=19;
     }
 
